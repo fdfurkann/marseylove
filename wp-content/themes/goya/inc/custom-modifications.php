@@ -35,6 +35,22 @@ function marsey_custom_homepage_styles() {
 add_action('wp_enqueue_scripts', 'marsey_custom_homepage_styles', 15);
 
 
+// Add logo above footer
+function marsey_add_footer_logo() {
+	$logo_id = 4240; // MarseyLove logo ID
+	$logo_url = wp_get_attachment_image_url($logo_id, 'full');
+	
+	if ($logo_url) {
+		echo '<div class="footer-logo-section" style="text-align: center; padding: 60px 0 40px; background: #fff;">';
+		echo '<div class="container">';
+		echo '<img src="' . esc_url($logo_url) . '" alt="MarseyLove" style="max-width: 200px; height: auto;" />';
+		echo '</div>';
+		echo '</div>';
+	}
+}
+add_action('goya_footer', 'marsey_add_footer_logo', 5); // Priority 5 to run before footer widgets
+
+
 // Remove specific items from footer Help menu
 function marsey_remove_footer_menu_items($items, $args) {
 	// Only target the Help menu (menu ID 34)
