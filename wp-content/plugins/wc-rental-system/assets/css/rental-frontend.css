@@ -1,0 +1,32 @@
+.rental-booking-form {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #eee;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.rental-field {
+    margin-bottom: 10px;
+}
+
+.rental-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.rental-field input {
+    width: 100%;
+}
+
+.rental-summary {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+
+.rental-summary p {
+    margin: 5px 0;
+}

@@ -1,0 +1,33 @@
+/* Fix slider text alignment - prevent subtitle and title from appearing side by side */
+.et-banner-slider .et-banner-text .et-banner-subtitle.tag_style {
+	display: block;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.et-banner-text.align_right .et-banner-subtitle.tag_style {
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.et-banner-text.align_left .et-banner-subtitle.tag_style {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+.et-banner-text.align_center .et-banner-subtitle.tag_style {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Ensure title displays below subtitle */
+.et-banner-slider .et-banner-text .et-banner-title {
+	display: block;
+	clear: both;
+}
+
+/* Ensure link displays below title */
+.et-banner-slider .et-banner-text .et-banner-link {
+	clear: both;
+}

@@ -1,0 +1,20 @@
+# WordPress
+wp-config.php
+.htaccess
+
+# Logs
+*.log
+
+# Large files
+*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Old site files
+old_site/

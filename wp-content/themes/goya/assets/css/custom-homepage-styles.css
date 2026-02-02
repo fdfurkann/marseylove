@@ -1,0 +1,350 @@
+/* 
+ * Custom Homepage Styles
+ * - Best Selling & Trend Outfits product titles
+ * - Shop page styling
+ */
+
+/* Showcase section titles - button style like DISCOVER */
+.showcase-row-custom-padding .et-banner-title.color-light.xxxlarge {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    font-weight: 500 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    padding: 12px 30px !important;
+    border-radius: 0 !important;
+    transition: all 0.3s ease !important;
+}
+
+.showcase-row-custom-padding .et-banner-title.color-light.xxxlarge:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+/* Hide DISCOVER buttons in showcase section */
+.showcase-row-custom-padding a.et-banner-link {
+    display: none !important;
+}
+
+/* Product price subtitle styling */
+.et_banner .et-banner-text-wrapper .et-banner-subtitle {
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+/* Hide specific footer menu items - Privacy Policy (ID: 4541) */
+#menu-item-4541 {
+    display: none !important;
+}
+
+/* Also hide by URL pattern for broader coverage */
+.footer2 .menu-item a[href*="privacy-policy"],
+.footer2 .menu-item a[href*="gizlilik-politikasi"],
+.footer2 .menu-item a[href*="iade-politikasi"],
+.footer2 .menu-item a[href*="return-policy"] {
+    pointer-events: none;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.footer2 .menu-item a[href*="privacy-policy"],
+.footer2 .menu-item a[href*="gizlilik-politikasi"],
+.footer2 .menu-item a[href*="iade-politikasi"],
+.footer2 .menu-item a[href*="return-policy"] {
+    display: none !important;
+}
+
+.footer2 .menu-item:has(a[href*="privacy-policy"]),
+.footer2 .menu-item:has(a[href*="gizlilik-politikasi"]),
+.footer2 .menu-item:has(a[href*="iade-politikasi"]),
+.footer2 .menu-item:has(a[href*="return-policy"]) {
+    display: none !important;
+}
+
+/* GTranslate popup - Fix Turkish flag position and dropdown */
+.gt_container a.glink,
+.gt_switcher .gt-selected a,
+.gt_switcher .gt-option a {
+    display: flex !important;
+    align-items: center !important;
+    white-space: nowrap !important;
+}
+
+.gt_container img,
+.gt_switcher img {
+    margin-right: 8px !important;
+    flex-shrink: 0 !important;
+}
+
+/* Fix GTranslate popup dropdown positioning */
+.gtranslate_wrapper {
+    position: relative !important;
+}
+
+.gt_container {
+    position: absolute !important;
+    top: 100% !important;
+    right: 0 !important;
+    margin-top: 5px !important;
+    z-index: 9999 !important;
+}
+
+.gt_black_overlay {
+    z-index: 9998 !important;
+}
+
+/* GTranslate popup height fix */
+.gt_white_content {
+    height: 257px !important;
+}
+
+.gt_white_content .gt_languages {
+    max-height: 255px !important;
+}
+
+/* Slider text fix - ensure elements stack vertically */
+.et-banner-slider .et-banner-subtitle.tag_style {
+    display: block !important;
+    width: fit-content !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.et-banner-text.align_right .et-banner-subtitle.tag_style {
+    margin-left: auto !important;
+}
+
+.et-banner-text.align_center .et-banner-subtitle.tag_style {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.et-banner-slider .et-banner-title,
+.et-banner-slider .et-banner-link {
+
+    clear: both !important;
+}
+
+/* Footer widgets styling for Help section */
+.footer2 .widget_nav_menu .widgettitle {
+}
+
+/* Shop page - List view styling (like homepage Best Selling) */
+.woocommerce ul.products.shop_display_list li.product {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    margin-bottom: 30px !important;
+    padding: 0 !important;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 30px !important;
+}
+
+.woocommerce ul.products.shop_display_list li.product figure.product_thumbnail {
+    width: 300px !important;
+    flex-shrink: 0;
+    margin-left: 30px !important;
+    margin-bottom: 0 !important;
+    order: 2;
+}
+
+.woocommerce ul.products.shop_display_list li.product .caption {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    order: 1;
+}
+
+.woocommerce ul.products.shop_display_list li.product .product-title h2 a {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    background-color: #fff !important;
+    padding: 12px 30px !important;
+    border-radius: 0 !important;
+    display: inline-block !important;
+    letter-spacing: 1px !important;
+    color: #000 !important;
+}
+
+.woocommerce ul.products.shop_display_list li.product .price {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    background-color: #fff !important;
+    padding: 8px 30px !important;
+    border-radius: 0 !important;
+    display: inline-block !important;
+    color: #000 !important;
+    margin-top: 10px !important;
+}
+
+.woocommerce ul.products.shop_display_list li.product .product-inner {
+    display: flex !important;
+    flex-direction: row !important;
+    width: 100% !important;
+}
+
+/* Shop page - Grid view styling (like homepage Best Selling) */
+/* Web: 2 columns, Mobile: 1 column */
+.woocommerce ul.products.main-shop-archive {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    gap: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .woocommerce ul.products.main-shop-archive {
+        display: block !important;
+    }
+}
+
+/* Large product images - maintain aspect ratio */
+.woocommerce ul.products.main-shop-archive li.product figure.product_thumbnail {
+    position: relative !important;
+    height: auto !important;
+    overflow: hidden !important;
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .woocommerce ul.products.main-shop-archive li.product figure.product_thumbnail {
+        height: auto !important;
+    }
+}
+
+.woocommerce ul.products.main-shop-archive li.product figure.product_thumbnail img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+
+/* Product info overlay on image - white background, black text */
+.woocommerce ul.products.main-shop-archive li.product .caption {
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: auto !important;
+    z-index: 10 !important;
+    text-align: center !important;
+}
+
+.woocommerce ul.products.main-shop-archive li.product .product-title h2 {
+    margin-bottom: 10px !important;
+}
+
+.woocommerce ul.products.main-shop-archive li.product .product-title h2 a {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    background-color: #fff !important;
+    padding: 12px 30px !important;
+    border-radius: 0 !important;
+    display: inline-block !important;
+    letter-spacing: 1px !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.woocommerce ul.products.main-shop-archive li.product .product_after_title {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+}
+
+.woocommerce ul.products.main-shop-archive li.product .price {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    background-color: #fff !important;
+    padding: 8px 30px !important;
+    border-radius: 0 !important;
+    display: inline-block !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+/* Hide add to cart button and other elements */
+.woocommerce ul.products.main-shop-archive li.product .after_shop_loop_actions,
+.woocommerce ul.products.main-shop-archive li.product .product-excerpt {
+    display: none !important;
+}
+
+/* Position caption container */
+.woocommerce ul.products.main-shop-archive li.product .product-inner {
+    position: relative !important;
+}
+
+/* Override WPBakery h2 inline-block display */
+.vc_row h2.vc_custom_heading,
+.vc_row .wpb_wrapper h2,
+.wpb_content_element h2 {
+    display: block !important;
+}
+
+/* Hide footer bar (copyright section) */
+#footer-bar, 
+.footer-bar, 
+.footer-main .copyright {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+}
+
+/* Shop page: 2 products per row, 675px width each */
+@media only screen and (min-width: 1200px) {
+    .woocommerce.archive ul.products.main-shop-archive {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: flex-start !important;
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+        list-style: none !important;
+        padding: 0 !important;
+    }
+    
+    .woocommerce.archive ul.products.main-shop-archive li.product {
+        flex: 0 0 675px !important;
+        width: 675px !important;
+        max-width: 675px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-bottom: 50px !important;
+        margin-right: 0 !important;
+        float: left !important;
+        clear: none !important;
+    }
+    
+    /* Clear every 2nd item for consistency if flex fails though we use flex */
+    .woocommerce.archive ul.products.main-shop-archive li.product:nth-child(2n+1) {
+        clear: both !important;
+    }
+    
+    /* Force container wide enough for 2x675px + gutters */
+    .woocommerce.archive .shop-products.container {
+        max-width: 1400px !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+/* Ensure product image maintains original aspect ratio */
+.woocommerce.archive ul.products.main-shop-archive li.product .product_thumbnail,
+.woocommerce.archive ul.products.main-shop-archive li.product .product-image {
+    height: auto !important;
+    padding-bottom: 0 !important;
+}
+
+.woocommerce.archive ul.products.main-shop-archive li.product img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: contain !important; 
+    display: block !important;
+}
+

@@ -1,0 +1,653 @@
+# Translation of Plugins - Kirki Customizer Framework - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - Kirki Customizer Framework - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-14 08:47:06+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - Kirki Customizer Framework - Stable (latest release)\n"
+
+#. translators: %s is the limit of selection number.
+#: kirki-packages/control-react-select/src/Control/ReactSelect.php:169
+msgid "You can only select %s items"
+msgstr "Yalnızca %s öğe seçebilirsiniz"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:850
+msgid "Defaults"
+msgstr "Varsayılanlar"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:387
+msgid "Wavy"
+msgstr "Dalgalı"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:386
+msgid "Solid"
+msgstr "Sağlam"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:328
+msgid "Font Color"
+msgstr "Yazı rengi"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:301
+msgid "Font Variant"
+msgstr "Yazı tipi varyasyonu"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:199
+msgid "900 Italic"
+msgstr "900 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:195
+msgid "900"
+msgstr "900"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:191
+msgid "800 Italic"
+msgstr "800 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:187
+msgid "800"
+msgstr "800"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:175
+msgid "600 Italic"
+msgstr "600 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:171
+msgid "600"
+msgstr "600"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:167
+msgid "500 Italic"
+msgstr "500 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:163
+msgid "500"
+msgstr "500"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:159
+msgid "300 Italic"
+msgstr "300 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:155
+msgid "300"
+msgstr "300"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:151
+msgid "200 Italic"
+msgstr "200 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:147
+msgid "200"
+msgstr "200"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:143
+msgid "100 Italic"
+msgstr "100 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:139
+msgid "100"
+msgstr "100"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:124
+#: kirki-packages/field-typography/src/Field/Typography.php:183
+msgid "700 Italic"
+msgstr "700 Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:120
+#: kirki-packages/field-typography/src/Field/Typography.php:179
+msgid "700"
+msgstr "700"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:116
+#: kirki-packages/field-typography/src/Field/Typography.php:135
+msgid "Italic"
+msgstr "Eğik"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:112
+#: kirki-packages/field-typography/src/Field/Typography.php:131
+msgid "Regular"
+msgstr "Normal"
+
+#: kirki-packages/control-react-select/src/Control/ReactSelect.php:162
+msgid "Select..."
+msgstr "Seç..."
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:115
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:114
+msgid "Widgets"
+msgstr "Bileşenler"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:113
+msgid "Taxonomies"
+msgstr "Sınıflandırmalar"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:112
+msgid "Products"
+msgstr "Ürünler"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:110
+msgid "Social"
+msgstr "Sosyal"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:109
+msgid "Sorting"
+msgstr "Sıralama"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:108
+msgid "Posts"
+msgstr "Yazılar"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:106
+msgid "Image Editing"
+msgstr "Görsel düzenleme"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:105
+msgid "Media"
+msgstr "Ortam dosyası"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:104
+msgid "Post Formats"
+msgstr "Yazı biçimleri"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:103
+msgid "Welcome Screen"
+msgstr "Karşılama ekranı"
+
+#: kirki-packages/control-dashicons/src/Control/Dashicons.php:102
+msgid "Admin Menu"
+msgstr "Yönetici menüsü"
+
+#: kirki-packages/compatibility/src/Init.php:261
+msgid "Don't show this again"
+msgstr "Bu mesajı tekrar gösterme"
+
+#: kirki-packages/compatibility/src/Init.php:260
+msgid "Install Plugin"
+msgstr "Eklentiyi kur"
+
+#: kirki-packages/compatibility/src/Init.php:257
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr "Temanız, simgeler için bir Font Awesome alanı kullanıyor. Önyüzdeki eksik simgelerle ilgili sorunları önlemek için resmi Font Awesome eklentisini yüklemenizi öneririz."
+
+#. Description of the plugin
+#: kirki.php
+msgid "The Ultimate WordPress Customizer Framework"
+msgstr "Nihai WordPress Özelleştirici Çatısı"
+
+#. Plugin Name of the plugin
+#: kirki.php kirki-packages/settings/src/SetupSettings.php:54
+#: kirki-packages/settings/templates/settings-template.php:23
+msgid "Kirki Customizer Framework"
+msgstr "Kirki Özelleştirici Çatısı"
+
+#: kirki-packages/control-image/src/Field/Image.php:117
+msgid "Choose image"
+msgstr "Görsel seç"
+
+#: kirki-packages/control-image/src/Control/Image.php:82
+#: kirki-packages/control-image/src/Field/Image.php:115
+#: kirki-packages/control-image/dist/control.js:1
+#: kirki-packages/control-image/src/control.js:100
+#: kirki-packages/control-image/dist/control.js:100
+msgid "No image selected"
+msgstr "Görsel seçilmedi"
+
+#: kirki-packages/control-image/src/Field/Image.php:112
+msgid "Change image"
+msgstr "Görseli değiştir"
+
+#: kirki-packages/control-image/src/Control/Image.php:89
+#: kirki-packages/control-image/src/Field/Image.php:111
+#: kirki-packages/control-image/src/Field/Image.php:116
+msgid "Select image"
+msgstr "Görsel seç"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:384
+msgid "Line Through"
+msgstr "Üzerini çiz"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:385
+msgid "Overline"
+msgstr "Üstte çizgi"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:383
+msgid "Underline"
+msgstr "Altı çizgili"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:379
+msgid "Text Decoration"
+msgstr "Metin süsleme"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:882
+msgid "Google Fonts"
+msgstr "Google yazı tipleri"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:877
+msgid "Standard Fonts"
+msgstr "Standart yazı tipleri"
+
+#: kirki-packages/compatibility/src/deprecated/functions.php:20
+msgid "%1$s or %2$s"
+msgstr "%1$s ya da %2$s"
+
+#: kirki-packages/compatibility/src/Kirki.php:191
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "Kirki alanları customize_register sırasında eklenmemelidir. Lütfen direkt olarak ekleyin ya da yapılandırma sırasında ekleyin."
+
+#: kirki-packages/compatibility/src/Init.php:206
+msgid "We detected you're using Kirki\\Compatibility\\Init::get_variables(). Please use \\Kirki\\Util\\Util::get_variables() instead."
+msgstr "Kirki\\Compatibility\\Init::get_variables() kullanımı yaptığınızı tespit edildi. Lütfen bunu yerine \\Kirki\\Util\\Util::get_variables() kullanın."
+
+#. translators: The field ID where the error occurs.
+#: kirki-packages/compatibility/src/Field.php:521
+#: kirki-packages/compatibility/src/Field.php:532
+#: kirki-packages/module-css/src/CSS.php:133
+#: kirki-packages/module-css/src/CSS.php:144
+#: kirki-packages/module-postmessage/src/Postmessage.php:69
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "%s alanında geçersiz biçim \"output\". \"output\" parametresi dizi içinde dizi olarak tanımlanmalı."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: kirki-packages/compatibility/src/Field.php:395
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "%s alanında geçersiz girdi \"partial_refresh\""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: kirki-packages/compatibility/src/Field.php:279
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "%1$s alanı için ayar tanımlanmamış - Düzgün bir şekilde nasıl alan ekleneceği hakkında detaylar için %2$s adresine göz atın."
+
+#. translators: %s represents the field ID where the error occurs.
+#: kirki-packages/compatibility/src/Field.php:268
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "%s alanında hata bulundu - ayarlar yerine ayar."
+
+#: kirki-packages/control-image/src/Control/Image.php:87
+#: kirki-packages/control-image/src/Field/Image.php:113
+#: kirki-packages/field-typography/src/Field/Typography.php:852
+msgid "Default"
+msgstr "Varsayılan"
+
+#. translators: The title.
+#: kirki-packages/module-sections/src/Section_Types/Nested.php:65
+msgid "Customizing &#9656; %s"
+msgstr "Özelleştirilen &#9656; %s"
+
+#: kirki-packages/module-sections/src/Section_Types/Nested.php:62
+msgid "Customizing"
+msgstr "Özelleştirme"
+
+#: kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:80
+msgid "Off"
+msgstr "Kapalı"
+
+#: kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:79
+msgid "On"
+msgstr "Açık"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:427
+msgid "Margin Bottom"
+msgstr "Alttan boşluk"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:422
+msgid "Margin Top"
+msgstr "Üstten boşluk"
+
+#. translators: %s represents the label of the row.
+#: kirki-packages/control-repeater/src/Control/Repeater.php:104
+msgid "Add new %s"
+msgstr "Yeni %s ekle"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:72
+msgid "Width"
+msgstr "Genişlik"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:64
+msgid "Word Spacing"
+msgstr "Kelime boşlukları"
+
+#: kirki-packages/field-background/src/Background.php:196
+msgid "Auto"
+msgstr "Otomatik"
+
+#: upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "Önemli yükseltme notu:"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:475
+#: kirki-packages/control-repeater/src/Control/Repeater.php:480
+msgid "No File Selected"
+msgstr "Dosya seçilmemiş"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: kirki-packages/control-repeater/src/Control/Repeater.php:488
+msgid "Change File"
+msgstr "Dosya değiştir"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: kirki-packages/control-repeater/src/Control/Repeater.php:490
+msgid "Add File"
+msgstr "Dosya ekle"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:95
+msgid "row"
+msgstr "satır"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:139
+msgid "Select a Page"
+msgstr "Bir sayfa seçin"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:350
+msgid "Initial"
+msgstr "İlk harf"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:365
+msgid "Lowercase"
+msgstr "Tüm harfleri küçült"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:364
+msgid "Uppercase"
+msgstr "Tüm harfleri büyült"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:363
+msgid "Capitalize"
+msgstr "Baş harfleri büyült"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:362
+#: kirki-packages/field-typography/src/Field/Typography.php:382
+msgid "None"
+msgstr "Hiç biri"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:359
+msgid "Text Transform"
+msgstr "Metin dönüşümü"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:347
+msgid "Text Align"
+msgstr "Metin hizalama"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:354
+msgid "Justify"
+msgstr "İki yana yasla"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:69
+#: kirki-packages/field-typography/src/Field/Typography.php:352
+msgid "Center"
+msgstr "Merkez"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: kirki-packages/control-repeater/src/Control/Repeater.php:275
+msgid "Limit: %s rows"
+msgstr "Sınır: %ssatır"
+
+#: kirki-packages/control-dimension/src/Control/Dimension.php:67
+#: kirki-packages/field-dimensions/src/Dimensions.php:74
+msgid "Invalid Value"
+msgstr "Geçersiz değer"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:184
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:182
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:183
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:181
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:179
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:180
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:178
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:177
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:176
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:174
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:175
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:173
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:172
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:171
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:169
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:170
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:168
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:167
+msgid "Book 300"
+msgstr "Book 300"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:166
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:165
+msgid "Light 200"
+msgstr "Light 200"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:164
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:162
+#: kirki-packages/module-webfonts/src/Webfonts/Fonts.php:163
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:71
+msgid "Spacing"
+msgstr "Boşluklandırma"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:73
+msgid "Height"
+msgstr "Yükseklik"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:70
+msgid "Size"
+msgstr "Boyut"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:62
+msgid "Font Style"
+msgstr "Yazı tipi biçimi"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:443
+#: kirki-packages/control-repeater/src/Control/Repeater.php:448
+msgid "No Image Selected"
+msgstr "Görsel seçilmemiş"
+
+#: kirki-packages/control-image/src/Control/Image.php:85
+#: kirki-packages/control-image/src/Field/Image.php:114
+#: kirki-packages/control-repeater/src/Control/Repeater.php:453
+#: kirki-packages/control-repeater/src/Control/Repeater.php:485
+#: kirki-packages/control-repeater/src/Control/Repeater.php:510
+msgid "Remove"
+msgstr "Kaldır"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: kirki-packages/control-repeater/src/Control/Repeater.php:456
+msgid "Change Image"
+msgstr "Görseli değiştir"
+
+#: kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: kirki-packages/control-repeater/src/Control/Repeater.php:458
+msgid "Add Image"
+msgstr "Görsel ekle"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:68
+#: kirki-packages/field-typography/src/Field/Typography.php:353
+msgid "Right"
+msgstr "Sağ"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:67
+#: kirki-packages/field-typography/src/Field/Typography.php:351
+msgid "Left"
+msgstr "Sol"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:66
+msgid "Bottom"
+msgstr "Alt"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:65
+msgid "Top"
+msgstr "Üst"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:63
+#: kirki-packages/field-typography/src/Field/Typography.php:407
+msgid "Letter Spacing"
+msgstr "Harf aralığı"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:61
+#: kirki-packages/field-typography/src/Field/Typography.php:402
+msgid "Line Height"
+msgstr "Satır yüksekliği"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:59
+#: kirki-packages/field-typography/src/Field/Typography.php:323
+msgid "Font Size"
+msgstr "Yazıtipi boyutu"
+
+#: kirki-packages/field-dimensions/src/Dimensions.php:60
+msgid "Font Weight"
+msgstr "Yazı tipi kalınlığı"
+
+#: kirki-packages/field-typography/src/Field/Typography.php:274
+msgid "Font Family"
+msgstr "Yazı tipi"
+
+#: kirki-packages/field-background/src/Background.php:152
+msgid "Background Position"
+msgstr "Arka plan konumu"
+
+#: kirki-packages/field-background/src/Background.php:161
+#: kirki-packages/field-dimensions/src/Dimensions.php:58
+msgid "Center Bottom"
+msgstr "Orta alt"
+
+#: kirki-packages/field-background/src/Background.php:160
+#: kirki-packages/field-dimensions/src/Dimensions.php:57
+msgid "Center Center"
+msgstr "Tam orta"
+
+#: kirki-packages/field-background/src/Background.php:159
+#: kirki-packages/field-dimensions/src/Dimensions.php:56
+msgid "Center Top"
+msgstr "Orta üst"
+
+#: kirki-packages/field-background/src/Background.php:164
+#: kirki-packages/field-dimensions/src/Dimensions.php:55
+msgid "Right Bottom"
+msgstr "Sağ alt"
+
+#: kirki-packages/field-background/src/Background.php:163
+#: kirki-packages/field-dimensions/src/Dimensions.php:54
+msgid "Right Center"
+msgstr "Sağ orta"
+
+#: kirki-packages/field-background/src/Background.php:162
+#: kirki-packages/field-dimensions/src/Dimensions.php:53
+msgid "Right Top"
+msgstr "Sağ üst"
+
+#: kirki-packages/field-background/src/Background.php:158
+#: kirki-packages/field-dimensions/src/Dimensions.php:52
+msgid "Left Bottom"
+msgstr "Sol alt"
+
+#: kirki-packages/field-background/src/Background.php:157
+#: kirki-packages/field-dimensions/src/Dimensions.php:51
+msgid "Left Center"
+msgstr "Sol orta"
+
+#: kirki-packages/field-background/src/Background.php:156
+#: kirki-packages/field-dimensions/src/Dimensions.php:50
+msgid "Left Top"
+msgstr "Sol üst"
+
+#: kirki-packages/field-background/src/Background.php:222
+msgid "Background Attachment"
+msgstr "Arka plan eki"
+
+#: kirki-packages/field-background/src/Background.php:227
+msgid "Scroll"
+msgstr "Kaydırma"
+
+#: kirki-packages/field-background/src/Background.php:228
+msgid "Fixed"
+msgstr "Sabit"
+
+#: kirki-packages/field-background/src/Background.php:190
+msgid "Background Size"
+msgstr "Arka plan boyutu"
+
+#: kirki-packages/field-background/src/Background.php:195
+msgid "Contain"
+msgstr "Doldur"
+
+#: kirki-packages/field-background/src/Background.php:194
+msgid "Cover"
+msgstr "Kapla"
+
+#: kirki-packages/field-background/src/Background.php:119
+msgid "Background Repeat"
+msgstr "Arka plan tekrarı"
+
+#: kirki-packages/field-background/src/Background.php:126
+msgid "Repeat Vertically"
+msgstr "Dikey tekrar"
+
+#: kirki-packages/field-background/src/Background.php:125
+msgid "Repeat Horizontally"
+msgstr "Yatay tekrar"
+
+#: kirki-packages/field-background/src/Background.php:124
+msgid "Repeat All"
+msgstr "Tüm yönlere tekrarla"
+
+#: kirki-packages/field-background/src/Background.php:123
+msgid "No Repeat"
+msgstr "Tekrar yok"
+
+#: kirki-packages/field-background/src/Background.php:103
+msgid "Background Image"
+msgstr "Arka plan görseli"
+
+#: kirki-packages/field-background/src/Background.php:84
+msgid "Background Color"
+msgstr "Arka plan rengi"
