@@ -50,6 +50,25 @@ function marsey_add_footer_logo() {
 }
 add_action('goya_footer', 'marsey_add_footer_logo', 5); // Priority 5 to run before footer widgets
 
+// Add payment logos to footer
+function marsey_add_payment_logos() {
+	$plugin_url = plugins_url();
+	?>
+	<div class="footer-payment-logos" style="text-align: center; padding: 30px 0; background: #fff; border-top: 1px solid #f0f0f0;">
+		<div class="container">
+			<p style="margin: 0 0 20px; font-size: 14px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: #333;">PAY SECURELY WITH</p>
+			<div style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+				<img src="<?php echo esc_url($plugin_url); ?>/woocommerce/assets/images/icons/credit-cards/mastercard.svg" alt="Mastercard" style="height: 40px; width: auto;" />
+				<img src="<?php echo esc_url($plugin_url); ?>/woocommerce/assets/images/icons/credit-cards/visa.svg" alt="Visa" style="height: 40px; width: auto;" />
+				<img src="<?php echo esc_url($plugin_url); ?>/woocommerce/assets/images/icons/credit-cards/discover.svg" alt="Discover" style="height: 40px; width: auto;" />
+				<img src="https://www.iyzico.com/assets/images/content/logo-iyzico-c49fc9e5.svg" alt="iyzico" style="height: 40px; width: auto; filter: brightness(0) saturate(100%);" />
+			</div>
+		</div>
+	</div>
+	<?php
+}
+add_action('goya_footer', 'marsey_add_payment_logos', 15); // Priority 15 to run after footer widgets
+
 
 // Remove specific items from footer Help menu
 function marsey_remove_footer_menu_items($items, $args) {
